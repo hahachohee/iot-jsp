@@ -13,7 +13,7 @@ String section = request.getParameter("section") != null ? request.getParameter(
 <body>
 	<%@include file="static/header.jsp" %>
 	<%@include file="static/nav.jsp" %>
-	<%@include file="static/footer.jsp" %>
+
 	
 	
 	<%
@@ -30,6 +30,6 @@ String section = request.getParameter("section") != null ? request.getParameter(
 	
 	%>
 	
-	
+	<%@include file="static/footer.jsp" %>
 </body>
 </html>
