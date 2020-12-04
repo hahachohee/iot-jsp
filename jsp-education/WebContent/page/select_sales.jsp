@@ -31,8 +31,6 @@
 			    "SALELIST.PCODE = PIZZA.PCODE " +
 			"ORDER BY SALELIST.SALENO";
 		
-		%> <%=query %> <%
-		
 		ResultSet rs = stmt.executeQuery(query);
 		
 		while (rs.next()) {
